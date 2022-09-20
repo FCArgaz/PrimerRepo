@@ -1,0 +1,93 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Karla', sans-serif;
+    background-color: #333;
+}
+
+.conteiner{
+    position: relative;  
+    width: 650px;  
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #fff;
+}
+
+.conteiner__top{
+    height: 250px;
+    padding: 1em 2em;
+}
+
+.conteiner__left, .conteiner__right{
+    position: absolute;
+    top: 250px;
+    width: 50%;
+    height: 250px;
+    padding: 1em 2em;
+}
+
+.conteiner__left{
+    left: 0;
+    background-color: hsl(179, 62%, 43%);
+}
+
+.conteiner__right{
+    right: 0;
+    background-color: hsla(179, 62%, 43%, 0.815);
+}
+
+.text--cyan{
+    color: hsl(179, 62%, 43%);
+}
+
+.text--lime{
+    color: hsl(71, 73%, 54%);
+}
+
+.text--light-blue{
+    color: hsl(218, 22%, 67%);
+}
+
+.text--white{
+    color: #fff;
+}
+
+.text--transparent{
+    color: hsla(0, 0%, 100%, 0.5);
+}
+
+.numero{
+    font-size: 2.5rem;
+}
+
+.text-big{
+    font-size: 2rem;
+}
+
+.text-medium{
+    font-size: 1.5rem;
+}
+
+.text-small{
+    font-size: 0.8rem;
+}
+
+.list{
+    padding-left: 0;
+    list-style: none;
+    font-weight: 200;
+}
+
+.button{
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    color: inherit;
+    width: 100%;
+    border-radius: 5px;
+    padding: 0.5em;
+    background-color: hsl(71, 73%, 54%);
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.103);
+}
